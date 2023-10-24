@@ -1,6 +1,6 @@
 # Class base Preprocessors
 # Backwards compatibility for imported name
-from nbclient.exceptions import CellExecutionError
+# from nbclient.exceptions import CellExecutionError
 
 from .base import Preprocessor
 from .clearmetadata import ClearMetadataPreprocessor
@@ -10,7 +10,7 @@ from .clearoutput import ClearOutputPreprocessor
 from .coalescestreams import coalesce_streams
 from .convertfigures import ConvertFiguresPreprocessor
 from .csshtmlheader import CSSHTMLHeaderPreprocessor
-from .execute import ExecutePreprocessor
+# from .execute import ExecutePreprocessor
 from .extractattachments import ExtractAttachmentsPreprocessor
 from .extractoutput import ExtractOutputPreprocessor
 from .highlightmagics import HighlightMagicsPreprocessor
@@ -20,13 +20,13 @@ from .svg2pdf import SVG2PDFPreprocessor
 from .tagremove import TagRemovePreprocessor
 
 __all__ = [
-    "CellExecutionError",
+    # "CellExecutionError",
     "Preprocessor",
     "ClearMetadataPreprocessor",
     "ClearOutputPreprocessor",
     "ConvertFiguresPreprocessor",
     "CSSHTMLHeaderPreprocessor",
-    "ExecutePreprocessor",
+    # "ExecutePreprocessor",
     "ExtractAttachmentsPreprocessor",
     "ExtractOutputPreprocessor",
     "HighlightMagicsPreprocessor",

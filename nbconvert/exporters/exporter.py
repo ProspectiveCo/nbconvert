@@ -89,7 +89,7 @@ class Exporter(LoggingConfigurable):
             "nbconvert.preprocessors.TagRemovePreprocessor",
             "nbconvert.preprocessors.RegexRemovePreprocessor",
             "nbconvert.preprocessors.ClearOutputPreprocessor",
-            "nbconvert.preprocessors.ExecutePreprocessor",
+            #"nbconvert.preprocessors.ExecutePreprocessor",
             "nbconvert.preprocessors.coalesce_streams",
             "nbconvert.preprocessors.SVG2PDFPreprocessor",
             "nbconvert.preprocessors.LatexPreprocessor",

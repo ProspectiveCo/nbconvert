@@ -669,6 +669,10 @@ class TemplateExporter(Exporter):
         if DEV_MODE:
             root_dirs.append(os.path.abspath(os.path.join(ROOT, "..", "..", "share", "jupyter")))
         root_dirs.extend(jupyter_path())
+
+        # hack
+        # root_dirs.extend(["/lib/python3.11/site-packages/nbconvert"])
+        root_dirs.extend(["/lib/python3.11/site-packages"])
         return root_dirs
 
     def _init_resources(self, resources):
