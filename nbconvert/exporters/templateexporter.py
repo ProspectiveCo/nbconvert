@@ -672,7 +672,8 @@ class TemplateExporter(Exporter):
 
         # hack
         # root_dirs.extend(["/lib/python3.11/site-packages/nbconvert"])
-        root_dirs.extend(["/lib/python3.11/site-packages"])
+        # root_dirs.extend(["/lib/python3.11/site-packages"])
+        root_dirs.extend(['/lib/python3.11/site-packages/nbconvert-7.9.2.data/data/share/jupyter'])
         return root_dirs
 
     def _init_resources(self, resources):
